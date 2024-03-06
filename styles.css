@@ -1,5 +1,76 @@
+
 body {
-    margin: 100;
-    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.maintext {
+    margin: 50px 100px;
     text-align: justify;
+}
+
+
+/* this is the main panel */
+header {
+    text-align: center;
+    font-size: large;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #363637;
+    padding-block: 10px;
+}
+
+/* this is the navigation bar with main tags */
+nav {
+    background-color: #4a90e2; 
+    padding-block: 10px;
+}
+/* and the tags */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* display: grid; for vertical alignment */
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;  
+   
+}
+/* and the texts in tags */
+nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px;  
+    
+}
+/* highlight of tag selected */
+nav ul li a:hover {
+    background-color: #0d47a1; /* Darker blue on hover */
+}
+
+
+/* this is a panel of images */
+.image-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.image-panel img {
+    width: 30%;
+    height: 30%;  
+}
+
+/* this is the bottom bar */
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding-block: 20px;
+    
 }
