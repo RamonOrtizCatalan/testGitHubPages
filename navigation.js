@@ -11,7 +11,7 @@ document.write('\
    <li><a href="https://github.com/OpenTOPAS/topas/discussions" target="_blank">User forum</a></li>\
    <li><a href="#">External tools</a></li>\
    <li><a href="/testGitHubPages/news.html">News</a></li>\
-   <li><a href="#">Contact</a></li>\
+   <li><a href="/testGitHubPages/contact.html"">Contact</a></li>\
 </ul>\
 </nav>\
 \
